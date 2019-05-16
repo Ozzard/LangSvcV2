@@ -59,9 +59,9 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Antlr3" Version="3.5.1" PrivateAssets="all" />
-    <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="15.1.192" PrivateAssets="all" />
-    <PackageReference Include="Tvl.VisualStudio.OutputWindow" Version="3.0.0" PrivateAssets="all" />
+    <PackageReference Include="Antlr3" Version="3.5.2-rc1" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.VSSDK.BuildTools" Version="16.0.2264" PrivateAssets="all" />
+    <PackageReference Include="Tvl.VisualStudio.OutputWindow" Version="3.1.0" PrivateAssets="all" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tvl.Core\Tvl.Core.csproj">
@@ -101,6 +101,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="..\External\Eula.rtf">
+      <Link>Eula.rtf</Link>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Resource Include="VSIXProject_small.png" />
     <None Include="Chapel.g3.lexer.cs">
       <DependentUpon>Chapel.g3</DependentUpon>
     </None>

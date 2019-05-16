@@ -44,7 +44,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="JetBrains.Annotations" Version="11.1.0" />
+    <PackageReference Include="JetBrains.Annotations" Version="2019.1.1" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Collections\ArrayEqualityComparers.cs" />
